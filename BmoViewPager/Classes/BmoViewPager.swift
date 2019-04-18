@@ -360,6 +360,7 @@ public class BmoViewPager: UIView {
     public override func draw(_ rect: CGRect) {
         super.draw(rect)
         if self.dataSource != nil { return }
+        /*
         let str1 = "BMO ViewPager"
         let str2 = "Need to implement"
         let str3 = "BmoViewPagerDataSource"
@@ -385,6 +386,7 @@ public class BmoViewPager: UIView {
         (str2 as NSString).draw(at: str2Point, withAttributes: subAttributed)
         (str3 as NSString).draw(at: str3Point, withAttributes: subAttributed)
         (str4 as NSString).draw(at: str4Point, withAttributes: subAttributed)
+        */
     }
     
     internal func internalSetPresentedIndex(_ index: Int) {

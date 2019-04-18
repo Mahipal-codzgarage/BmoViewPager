@@ -124,6 +124,7 @@ public class BmoViewPagerNavigationBar: UIView {
     public override func draw(_ rect: CGRect) {
         super.draw(rect)
         if self.viewPager != nil { return }
+        /*
         let str1 = "BMO ViewPager NavigationBar"
         let str2 = "Need to assign a BmoViewPager"
         let mainAttributed = [
@@ -141,6 +142,7 @@ public class BmoViewPagerNavigationBar: UIView {
         let str2Point = CGPoint(x: rect.midX - str2Size.width / 2, y: str1Point.y + str1Size.height)
         (str1 as NSString).draw(at: str1Point, withAttributes: mainAttributed)
         (str2 as NSString).draw(at: str2Point, withAttributes: subAttributed)
+        */
     }
     
     public override var intrinsicContentSize: CGSize {
